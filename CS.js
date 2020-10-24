@@ -32,6 +32,7 @@ server.on('request', function (request, response) {
   response.end()
 })
 
-server.listen(80, function () {
-  console.log('服务器启动成功，在客户端设置 服务器IP')
+server.listen(2333, function () {
+  console.log('服务器启动成功，在客户端设置 服务器IP:2333')
+  //如果端口有冲突，请自行修改
 })
